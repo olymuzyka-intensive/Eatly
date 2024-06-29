@@ -2,7 +2,7 @@
   "name": "eatly-react",
   "private": false,
   "version": "0.0.0",
-  "homepage": "https://olymuzyka-intensive.github.io/eatly",
+  "homepage": "https://olymuzyka-intensive.github.io/eatly/App",
   "type": "module",
   "scripts": {
     "dev": "vite",
