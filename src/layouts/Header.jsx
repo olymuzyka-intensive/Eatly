@@ -18,7 +18,7 @@ function Header() {
                 <div className="header__row">                    
                     <nav className="header__nav">
                         <Link to="/" className="header__logo">
-                            <img src="/src/img/Logo.svg" alt="Logo"/>
+                            <img src="../img/Logo.svg" alt="Logo"/>
                         </Link> 
 
                         <ul className={`header__menu ${isOpen ? " " : "active"}`}>

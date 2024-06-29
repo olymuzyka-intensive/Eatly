@@ -7,7 +7,7 @@ function Footer() {
                 <div className="footer__row">                    
                     <nav className="footer__nav">
                         <Link to="/" className="logo">
-                            <img src="/src/img/logo.svg" alt="Logo"/>
+                            <img src="../img/Logo.svg" alt="Logo"/>
                         </Link>
                         <ul className="footer__menu">
                             <li className="menu__item">

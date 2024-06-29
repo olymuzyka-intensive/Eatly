@@ -33,17 +33,17 @@ function DishesFilter() {
         {
             title: "GET 50%",
             promo: "WEEKEND",
-            image: "/src/img/Food-2.png"
+            image: "./img/Food-2.png"
         },
         {
             title: "GET 30%",
             promo: "TODAY",
-            image: "/src/img/Food-3.png"           
+            image: "./img/Food-3.png"           
         },
         {
             title: "GET 20%",
             promo: "MONTH",
-            image: "/src/img/Food-1.png"           
+            image: "./img/Food-1.png"           
         },
     ]
 
@@ -57,7 +57,7 @@ function DishesFilter() {
             <div className="container"> 
                 <div className="supersale__row">
                     <div className="supersale__promo">
-                        <img className='supersale__promo_decor' src="/src/img/decor7.svg" alt="decor"/>
+                        <img className='supersale__promo_decor' src="./img/decor7.svg" alt="decor"/>
                         <ul className="supersale__slider">
                             <div className="supersale__list">
                                 {slider.map((slide, index) =>  

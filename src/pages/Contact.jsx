@@ -6,9 +6,9 @@ function Contact() {
                 <div className="support__row">
                     <div className="support__row_left">
                         <h2 className="support__title">Just Contact</h2>
-                        <img className="support__title_img-1" src="/src/img/decor9.svg" alt="decor"/>
-                        <img className="support__title_img-2" src="/src/img/quality-bg.png" alt="quality"/>
-                        <img className="support__title_img-4" src="/src/img/decor0.svg" alt="decor"/>
+                        <img className="support__title_img-1" src="./img/decor9.svg" alt="decor"/>
+                        <img className="support__title_img-2" src="./img/quality-bg.png" alt="quality"/>
+                        <img className="support__title_img-4" src="./img/decor0.svg" alt="decor"/>
                     </div>
                     <form className="support__row_right">
                         <h2 className="support__title support__title_right">Customer <span>Support</span></h2>

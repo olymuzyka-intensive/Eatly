@@ -22,7 +22,7 @@ const Search = ({ products, setFilteredProducts}) => {
                 placeholder="Search" 
                 />
 
-                <button className="btn btn--search"> <img src="/src/img/Search.svg" alt="search"/></button>
+                <button className="btn btn--search"> <img src="./img/Search.svg" alt="search"/></button>
             </div>
     )
   }

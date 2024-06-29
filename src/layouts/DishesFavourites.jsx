@@ -2,7 +2,6 @@ import { useContext, useState, useEffect } from 'react';
 
 import DishesLikeButton from './DishesLikeButton';
 import SubcategoryStyle from './SubcategoryStyle';
-import { MainContext } from "./Main"
 import { AppContext } from '../App';
 
 

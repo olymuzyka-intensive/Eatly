@@ -34,7 +34,7 @@ function Sign() {
                     <div className="popup__left">
                         <div className="popup__left_logo">
                             <Link to="/" className="header__logo">
-                                <img src="/src/img/Logo.svg" alt="Logo"/>
+                                <img src="./img/Logo.svg" alt="Logo"/>
                             </Link>
                         </div>
                         <form className="popup__left_form">

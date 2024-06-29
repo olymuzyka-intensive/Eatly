@@ -51,7 +51,7 @@ function Questions() {
             <div className="questions__row">
                 <div className="questions__header">
                     <h2 className="questions__header_title">Frequently Asked <br/><span>Questions</span></h2>
-                    <img className='questions__header_decor' src="/src/img/decor8.svg" alt="decor"/>
+                    <img className='questions__header_decor' src="./img/decor8.svg" alt="decor"/>
                 </div>
 
                 <ul className="questions__list"> 
