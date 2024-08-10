@@ -402,7 +402,7 @@ h2 span {
 }
 .promo__row {
   padding: 120px 0;
-  background: url("/src/img/promo-bg.png") no-repeat;
+  background: url("../assets/img/promo-bg.png") no-repeat;
   background-position: center right;
   margin-right: -35px;
   display: flex;
@@ -687,14 +687,14 @@ h2 span {
 .dishes__add {
   width: 44px;
   height: 40px;
-  background: #323142 url(/src/img/+.svg) no-repeat;
+  background: #323142 url(../assets/img/+.svg) no-repeat;
   background-position: 50%;
   border-radius: 9px;
   margin-left: auto;
   cursor: pointer;
 }
 .dishes__add:active {
-  background: #6C5FBC url(/src/img/+.svg) no-repeat;
+  background: #6C5FBC url(../assets/img/+.svg) no-repeat;
   background-position: 50%;
 }
 .dishes__empty {
@@ -2015,20 +2015,20 @@ input:valid {
   border: 4px solid transparent;
 }
 .category__item:nth-child(1) {
-  background: rgba(255, 222, 138, 0.35) url(/src/img/Pizza.png) no-repeat;
+  background: rgba(255, 222, 138, 0.35) url(/src/assets/img/Pizza.png) no-repeat;
   background-position: center 20px;
 }
 .category__item:nth-child(2) {
-  background: rgba(251, 71, 29, 0.35) url(/src/img/Main1.png) no-repeat;
+  background: rgba(251, 71, 29, 0.35) url(/src/assets/img/Main1.png) no-repeat;
   background-position: center 15px;
   background-size: 35px 35px;
 }
 .category__item:nth-child(3) {
-  background: rgba(237, 182, 107, 0.35) url(/src/img/Doughnut.png) no-repeat;
+  background: rgba(237, 182, 107, 0.35) url(/src/assets/img/Doughnut.png) no-repeat;
   background-position: center 20px;
 }
 .category__item:nth-child(4) {
-  background: rgba(90, 133, 255, 0.35) url(/src/img/Icecream.png) no-repeat;
+  background: rgba(90, 133, 255, 0.35) url(/src/assets/img/Icecream.png) no-repeat;
   background-position: center 20px;
 }
 .category__item-active {
@@ -2037,25 +2037,25 @@ input:valid {
   cursor: pointer;
 }
 .category__item-active:nth-child(1) {
-  background: rgba(255, 222, 138, 0.35) url(/src/img/Pizza.png) no-repeat;
+  background: rgba(255, 222, 138, 0.35) url(/src/assets/img/Pizza.png) no-repeat;
   border: 4px solid rgba(255, 222, 138, 0.5);
   background-position: center 20px;
   background-size: 40px 40px;
 }
 .category__item-active:nth-child(2) {
-  background: rgba(251, 71, 29, 0.35) url(/src/img/Main1.png) no-repeat;
+  background: rgba(251, 71, 29, 0.35) url(/src/assets/img/Main1.png) no-repeat;
   background-position: center 15px;
   border: 4px solid rgba(251, 71, 29, 0.5);
   background-size: 40px 40px;
 }
 .category__item-active:nth-child(3) {
-  background: rgba(237, 182, 107, 0.35) url(/src/img/Doughnut.png) no-repeat;
+  background: rgba(237, 182, 107, 0.35) url(/src/assets/img/Doughnut.png) no-repeat;
   background-position: center 20px;
   border: 4px solid rgba(237, 182, 107, 0.5);
   background-size: 40px 40px;
 }
 .category__item-active:nth-child(4) {
-  background: rgba(90, 133, 255, 0.35) url(/src/img/Icecream.png) no-repeat;
+  background: rgba(90, 133, 255, 0.35) url(/src/assets/img/Icecream.png) no-repeat;
   background-position: center 20px;
   border: 4px solid rgba(90, 133, 255, 0.5);
   background-size: auto 45px;
