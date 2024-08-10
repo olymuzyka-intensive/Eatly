@@ -13,7 +13,7 @@ function Getsupersale( {products, setFilteredProducts} ) {
         {
             title: "GET 50%",
             promo: "WEEKEND",
-            image: "./img/Food-2.png"
+            image: "/src/assets/img/Food-2.png"
         },
         {
             title: "GET 30%",
@@ -36,7 +36,7 @@ function Getsupersale( {products, setFilteredProducts} ) {
             <div className="container"> 
                 <div className="supersale__row">
                     <div className="supersale__promo">
-                        <img className='supersale__promo_decor' src="./img/decor7.svg" alt="decor"/>
+                        <img className="supersale__promo_decor" src="/src/assets/img/decor7.svg" alt="decor"/>
                         <ul className="supersale__slider">
                             <div className="supersale__list">
                                 {slider.map((slide, index) =>  

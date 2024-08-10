@@ -517,7 +517,7 @@ h2 span {
 
 .quality__row {
   padding: 100px 0 168px;
-  background: url(/src/img/quality-bg.png) no-repeat;
+  background: url(/src/assets/img/quality-bg.png) no-repeat;
   background-position: 10% 84.98px;
   border-bottom: 0.71px solid #CBCBCB;
 }
@@ -1853,7 +1853,7 @@ input:valid {
   width: 100%;
   border-radius: 18.69px;
   position: relative;
-  background: url(/src/img/bg_supersale.png), #6C5FBC;
+  background: url(/src/assets/img/bg_supersale.png), #6C5FBC;
   margin-right: 10px;
   padding: 30px 0 107px 58.43px;
 }

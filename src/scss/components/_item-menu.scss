@@ -36,7 +36,7 @@
             width: 100%;
             border-radius: 18.69px;
             position: relative;
-            background: url(/src/img/bg_supersale.png),  #6C5FBC;
+            background: url(/src/assets/img/bg_supersale.png),  #6C5FBC;
             margin-right: 10px;
             // display: flex;
             padding: 30px 0 107px 58.43px; 
@@ -353,6 +353,7 @@
     height: 5.3px !important;
     border-radius: 8.8px !important;   
 }
+
 .MuiSlider-thumb input{
     background: url(/src/img/price.svg) !important;
     width: 25.5px !important;
