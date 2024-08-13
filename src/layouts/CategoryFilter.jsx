@@ -58,7 +58,7 @@ function CategoryFilter({products, setFilteredProducts }) {
                 <div className="category__title">Sort By</div>
                 <div className="category__card_col">
                     <div className="category__card_row">
-                        <div className={sortCategory === 'Recomended' ? "category__card_history-active" : "category__card_history"}  onClick={() => handleCategorySort('Recomended')}>Recomended</div>
+                        <div className={sortCategory === 'Recommended' ? "category__card_history-active" : "category__card_history"}  onClick={() => handleCategorySort('Recommended')}>Recommended</div>
                         <div className={sortCategory === 'Fast Delivery' ? "category__card_history-active" : "category__card_history"}  onClick={() => handleCategorySort('Fast Delivery')}>Fast Delivery</div>
                     </div>
                     <div className={sortCategory === 'Most Popular' ? "category__card_history-active" : "category__card_history"}  onClick={() => handleCategorySort('Most Popular')}>Most Popular</div> 
