@@ -517,7 +517,7 @@ h2 span {
 
 .quality__row {
   padding: 100px 0 168px;
-  background: url(./img/quality-bg.png) no-repeat;
+  background: url(/img/quality-bg.png) no-repeat;
   background-position: 10% 84.98px;
   border-bottom: 0.71px solid #CBCBCB;
 }
@@ -1772,7 +1772,7 @@ h2 span {
 .popup__right {
   display: flex;
   flex-direction: column;
-  background: #6C5FBC url(./img/promo-bg.png) no-repeat;
+  background: #6C5FBC url(/img/promo-bg.png) no-repeat;
   background-position: 50% 30%;
   background-size: 550px;
   width: 50%;
