@@ -196,7 +196,7 @@
     position: relative;
     &__row {
         padding: 60px 65px;
-        background: $purple url(/src/img/bg_supersale.png);
+        background: $purple url(/img/bg_supersale.png);
         border-radius: 30px;
         position: relative;
         display: flex;
@@ -292,7 +292,7 @@
             border: none;
             border-radius: 9.97px;
             padding-left: 91px;
-            background: #EDEDED url(/src/img/coupon.svg) no-repeat;
+            background: #EDEDED url(/img/coupon.svg) no-repeat;
             background-position: 28.5px center;
             outline: 0;
         }    
@@ -356,7 +356,7 @@
                 height: 31.5px;
                 border: 1px solid black;
                 border-radius: 10px;
-                background: url(/src/img/Mins.svg) no-repeat;
+                background: url(/img/Mins.svg) no-repeat;
                 background-position: 50%;
                 cursor: pointer;
             }
@@ -387,7 +387,7 @@
                 height: 31.5px;
                 border: 0px;
                 border-radius: 10px;
-                background: $black url(/src/img/+.svg) no-repeat;
+                background: $black url(/img/+.svg) no-repeat;
                 background-position: 50%;
                 svg {
                     fill: $bgwhite;
@@ -399,7 +399,7 @@
                 color: gray;
                 font-size: 16px;
                 font-weight: 700;
-                background: url(/src/img/remove_from_cart1.svg) no-repeat;
+                background: url(/img/remove_from_cart1.svg) no-repeat;
                 // background-size: 30px;
                 position: absolute;
                 top: 5%;
@@ -495,7 +495,7 @@
             width: 530px;
             height: 100%;
             position: absolute;
-            background: $purple url(/src/img/decor10.svg) no-repeat;
+            background: $purple url(/img/decor10.svg) no-repeat;
             background-position: 16.5% 5.75%;
             left: -100px;
             display: flex;
@@ -638,7 +638,7 @@
         line-height: 25px;
         margin-left: 100px;
         padding-left: 20px;
-        list-style: url('/src/img/like.svg');
+        list-style: url(./img/like.svg);
         margin-top: 10px;
         }
     }
@@ -706,15 +706,15 @@
         }
         
         input[type="text"] {
-            background: #EDEDED url(/src/img/UserIcon.svg) no-repeat;
+            background: #EDEDED url(/img/UserIcon.svg) no-repeat;
             background-position: 28.5px 50%;
         }
         input[type="email"] {
-            background: #EDEDED url(/src/img/Email.svg) no-repeat;
+            background: #EDEDED url(/img/Email.svg) no-repeat;
             background-position: 28.5px 50%;
         }
         input[type="tel"] {
-            background: #EDEDED url(/src/img/mobile.svg) no-repeat;
+            background: #EDEDED url(/img/mobile.svg) no-repeat;
             background-size: 19px;
             background-position: 28.5px 50%;
         }
@@ -739,7 +739,7 @@
     &__right {
         display: flex;
         flex-direction: column;
-        background: $purple url(/src/img/promo-bg.png) no-repeat;
+        background: $purple url(./img/promo-bg.png) no-repeat;
         background-position: 50% 30%;
         background-size: 550px;
         width: 50%;

@@ -10,7 +10,7 @@ function GetSupersale() {
                             <div className='getsupersale__form_button'><button className="btn btn--subscribe" type="submit">subscribe</button></div>
                         </div>
                     </form>
-                    <img className="getsupersale__row_img" src="../img/Food-2.png" alt="supersale"/>
+                    <img className="getsupersale__row_img" src="./img/Food-2.png" alt="supersale"/>
                 </div>
             </div>
         </div>

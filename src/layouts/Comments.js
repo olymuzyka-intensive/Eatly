@@ -2,8 +2,7 @@ const Comments = [
     {
         "data": "01 Year With Us",
         "name": "Alexander R.",
-        // "image": "./img/customer_foto.jpg",
-        "image": "./assets/img/customer_foto.jpg",
+        "image": "/img/customer_foto.jpg",
         "text": "Online invoice payment helps companies save time, are faster and save maximum effort for the clients and save maximum effort. Online invoice payment helps companies save time",
         "id": "1"
       },

@@ -402,7 +402,7 @@ h2 span {
 }
 .promo__row {
   padding: 120px 0;
-  background: url("../assets/img/promo-bg.png") no-repeat;
+  background: url("./img/promo-bg.png") no-repeat;
   background-position: center right;
   margin-right: -35px;
   display: flex;
@@ -517,7 +517,7 @@ h2 span {
 
 .quality__row {
   padding: 100px 0 168px;
-  background: url(/src/assets/img/quality-bg.png) no-repeat;
+  background: url(./img/quality-bg.png) no-repeat;
   background-position: 10% 84.98px;
   border-bottom: 0.71px solid #CBCBCB;
 }
@@ -687,14 +687,14 @@ h2 span {
 .dishes__add {
   width: 44px;
   height: 40px;
-  background: #323142 url(../assets/img/+.svg) no-repeat;
+  background: #323142 url(/img/+.svg) no-repeat;
   background-position: 50%;
   border-radius: 9px;
   margin-left: auto;
   cursor: pointer;
 }
 .dishes__add:active {
-  background: #6C5FBC url(../assets/img/+.svg) no-repeat;
+  background: #6C5FBC url(/img/+.svg) no-repeat;
   background-position: 50%;
 }
 .dishes__empty {
@@ -1012,7 +1012,7 @@ h2 span {
   letter-spacing: 0.2px;
 }
 .questions__item_button {
-  background: url(/src/img/Plus.svg) no-repeat;
+  background: url(./img/Plus.svg) no-repeat;
   background-size: 30.12px;
   width: 30.12px;
   margin-top: 15px;
@@ -1021,7 +1021,7 @@ h2 span {
   cursor: pointer;
 }
 .questions__item_button.active {
-  background: url(/src/img/minus.svg) no-repeat;
+  background: url(./img/minus.svg) no-repeat;
   background-size: 30.12px;
 }
 .questions__item.active {
@@ -1258,7 +1258,7 @@ h2 span {
 }
 .getsupersale__row {
   padding: 60px 65px;
-  background: #6C5FBC url(/src/img/bg_supersale.png);
+  background: #6C5FBC url(/img/bg_supersale.png);
   border-radius: 30px;
   position: relative;
   display: flex;
@@ -1349,7 +1349,7 @@ h2 span {
   border: none;
   border-radius: 9.97px;
   padding-left: 91px;
-  background: #EDEDED url(/src/img/coupon.svg) no-repeat;
+  background: #EDEDED url(/img/coupon.svg) no-repeat;
   background-position: 28.5px center;
   outline: 0;
 }
@@ -1416,7 +1416,7 @@ h2 span {
   height: 31.5px;
   border: 1px solid black;
   border-radius: 10px;
-  background: url(/src/img/Mins.svg) no-repeat;
+  background: url(/img/Mins.svg) no-repeat;
   background-position: 50%;
   cursor: pointer;
 }
@@ -1447,7 +1447,7 @@ h2 span {
   height: 31.5px;
   border: 0px;
   border-radius: 10px;
-  background: #323142 url(/src/img/+.svg) no-repeat;
+  background: #323142 url(/img/+.svg) no-repeat;
   background-position: 50%;
 }
 .shopping__item_counter-raise svg {
@@ -1459,7 +1459,7 @@ h2 span {
   color: gray;
   font-size: 16px;
   font-weight: 700;
-  background: url(/src/img/remove_from_cart1.svg) no-repeat;
+  background: url(/img/remove_from_cart1.svg) no-repeat;
   position: absolute;
   top: 5%;
   right: 1%;
@@ -1547,7 +1547,7 @@ h2 span {
   width: 530px;
   height: 100%;
   position: absolute;
-  background: #6C5FBC url(/src/img/decor10.svg) no-repeat;
+  background: #6C5FBC url(/img/decor10.svg) no-repeat;
   background-position: 16.5% 5.75%;
   left: -100px;
   display: flex;
@@ -1679,7 +1679,7 @@ h2 span {
   line-height: 25px;
   margin-left: 100px;
   padding-left: 20px;
-  list-style: url("/src/img/like.svg");
+  list-style: url(./img/like.svg);
   margin-top: 10px;
 }
 .about__info_tel, .about__time_hour {
@@ -1741,15 +1741,15 @@ h2 span {
   border: 1px solid #6C5FBC;
 }
 .popup__left input[type=text] {
-  background: #EDEDED url(/src/img/UserIcon.svg) no-repeat;
+  background: #EDEDED url(/img/UserIcon.svg) no-repeat;
   background-position: 28.5px 50%;
 }
 .popup__left input[type=email] {
-  background: #EDEDED url(/src/img/Email.svg) no-repeat;
+  background: #EDEDED url(/img/Email.svg) no-repeat;
   background-position: 28.5px 50%;
 }
 .popup__left input[type=tel] {
-  background: #EDEDED url(/src/img/mobile.svg) no-repeat;
+  background: #EDEDED url(/img/mobile.svg) no-repeat;
   background-size: 19px;
   background-position: 28.5px 50%;
 }
@@ -1772,7 +1772,7 @@ h2 span {
 .popup__right {
   display: flex;
   flex-direction: column;
-  background: #6C5FBC url(/src/img/promo-bg.png) no-repeat;
+  background: #6C5FBC url(./img/promo-bg.png) no-repeat;
   background-position: 50% 30%;
   background-size: 550px;
   width: 50%;
@@ -1853,7 +1853,7 @@ input:valid {
   width: 100%;
   border-radius: 18.69px;
   position: relative;
-  background: url(/src/assets/img/bg_supersale.png), #6C5FBC;
+  background: url(/img/bg_supersale.png), #6C5FBC;
   margin-right: 10px;
   padding: 30px 0 107px 58.43px;
 }
@@ -2015,20 +2015,20 @@ input:valid {
   border: 4px solid transparent;
 }
 .category__item:nth-child(1) {
-  background: rgba(255, 222, 138, 0.35) url(/src/assets/img/Pizza.png) no-repeat;
+  background: rgba(255, 222, 138, 0.35) url(/img/Pizza.png) no-repeat;
   background-position: center 20px;
 }
 .category__item:nth-child(2) {
-  background: rgba(251, 71, 29, 0.35) url(/src/assets/img/Main1.png) no-repeat;
+  background: rgba(251, 71, 29, 0.35) url(/img/Main.png) no-repeat;
   background-position: center 15px;
   background-size: 35px 35px;
 }
 .category__item:nth-child(3) {
-  background: rgba(237, 182, 107, 0.35) url(/src/assets/img/Doughnut.png) no-repeat;
+  background: rgba(237, 182, 107, 0.35) url(/img/Doughnut.png) no-repeat;
   background-position: center 20px;
 }
 .category__item:nth-child(4) {
-  background: rgba(90, 133, 255, 0.35) url(/src/assets/img/Icecream.png) no-repeat;
+  background: rgba(90, 133, 255, 0.35) url(/img/Icecream.png) no-repeat;
   background-position: center 20px;
 }
 .category__item-active {
@@ -2037,25 +2037,25 @@ input:valid {
   cursor: pointer;
 }
 .category__item-active:nth-child(1) {
-  background: rgba(255, 222, 138, 0.35) url(/src/assets/img/Pizza.png) no-repeat;
+  background: rgba(255, 222, 138, 0.35) url(/img/Pizza.png) no-repeat;
   border: 4px solid rgba(255, 222, 138, 0.5);
   background-position: center 20px;
   background-size: 40px 40px;
 }
 .category__item-active:nth-child(2) {
-  background: rgba(251, 71, 29, 0.35) url(/src/assets/img/Main1.png) no-repeat;
+  background: rgba(251, 71, 29, 0.35) url(/img/Main.png) no-repeat;
   background-position: center 15px;
   border: 4px solid rgba(251, 71, 29, 0.5);
   background-size: 40px 40px;
 }
 .category__item-active:nth-child(3) {
-  background: rgba(237, 182, 107, 0.35) url(/src/assets/img/Doughnut.png) no-repeat;
+  background: rgba(237, 182, 107, 0.35) url(/img/Doughnut.png) no-repeat;
   background-position: center 20px;
   border: 4px solid rgba(237, 182, 107, 0.5);
   background-size: 40px 40px;
 }
 .category__item-active:nth-child(4) {
-  background: rgba(90, 133, 255, 0.35) url(/src/assets/img/Icecream.png) no-repeat;
+  background: rgba(90, 133, 255, 0.35) url(/img/Icecream.png) no-repeat;
   background-position: center 20px;
   border: 4px solid rgba(90, 133, 255, 0.5);
   background-size: auto 45px;
@@ -2136,7 +2136,7 @@ input:valid {
 }
 
 .MuiSlider-thumb input {
-  background: url(/src/img/price.svg) !important;
+  background: url(/img/price.svg) !important;
   width: 25.5px !important;
   height: 25.5px !important;
   cursor: pointer;

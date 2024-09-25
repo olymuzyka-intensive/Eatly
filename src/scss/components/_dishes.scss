@@ -131,14 +131,14 @@
     &__add {
         width: 44px;
         height: 40px;
-        background: $black url(../assets/img/+.svg) no-repeat;
+        background: $black url(/img/+.svg) no-repeat;
         background-position: 50%;
         border-radius: 9px;
         margin-left: auto;
         // position: relative; 
         cursor: pointer;
         &:active {
-            background: $purple url(../assets/img/+.svg) no-repeat;
+            background: $purple url(/img/+.svg) no-repeat;
             background-position: 50%;
         }
     }
