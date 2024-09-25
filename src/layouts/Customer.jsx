@@ -49,7 +49,7 @@ function Customer() {
         {
             "data": "01 Year With Us",
             "name": "Alexander R.",
-            "image": "./img/customer_foto.jpg",
+            "image": "/img/customer_foto.jpg",
             "text": "Online invoice payment helps companies save time, are faster and save maximum effort for the clients and save maximum effort. Online invoice payment helps companies save time",
             "id": "1"
           },
@@ -86,16 +86,16 @@ function Customer() {
                                                         <div className="customer__item_name">{comment.name}</div>
                                                         <div className="customer__item_date">{comment.data}</div>                                            
                                                     </div>
-                                                    <div className="customer__item_decor"><img src="./img/decor6.png" alt="decor"/></div>
+                                                    <div className="customer__item_decor"><img src="/img/decor6.png" alt="decor"/></div>
                                                 </div>
                                                 <div className="customer__item_row">    
                                                     <div className={isActive === index ? "customer__item_text-active" : "customer__item_text"}>{comment.text}</div>
                                                     <div className="customer__item_rating">
-                                                        <img src="./img/stars.svg" alt="star"/> 
-                                                        <img src="./img/stars.svg" alt="star"/>
-                                                        <img src="./img/stars.svg" alt="star"/>
-                                                        <img src="./img/stars.svg" alt="star"/>
-                                                        <img src="./img/stars.svg" alt="star"/>
+                                                        <img src="/img/stars.svg" alt="star"/> 
+                                                        <img src="/img/stars.svg" alt="star"/>
+                                                        <img src="/img/stars.svg" alt="star"/>
+                                                        <img src="/img/stars.svg" alt="star"/>
+                                                        <img src="/img/stars.svg" alt="star"/>
                                                     </div>
                                                 </div>
                                             </li>

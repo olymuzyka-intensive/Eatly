@@ -1012,7 +1012,7 @@ h2 span {
   letter-spacing: 0.2px;
 }
 .questions__item_button {
-  background: url(./img/Plus.svg) no-repeat;
+  background: url(/img/Plus.svg) no-repeat;
   background-size: 30.12px;
   width: 30.12px;
   margin-top: 15px;
@@ -1021,7 +1021,7 @@ h2 span {
   cursor: pointer;
 }
 .questions__item_button.active {
-  background: url(./img/minus.svg) no-repeat;
+  background: url(/img/minus.svg) no-repeat;
   background-size: 30.12px;
 }
 .questions__item.active {

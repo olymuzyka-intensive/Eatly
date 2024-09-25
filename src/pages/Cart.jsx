@@ -128,7 +128,7 @@ function Cart() {
                 <div className="container">
                     <div className="shopping__row">
                         <div className='shopping__empty'>There's nothing here yet</div>
-                        <img className="shopping__cards_decor-1" src="../img/decor8.svg" alt="decor"/>
+                        <img className="shopping__cards_decor-1" src="/img/decor8.svg" alt="decor"/>
                     </div>
                 </div>
                 <GetSupersale/>
@@ -142,7 +142,7 @@ function Cart() {
         <div className="shopping">
             <div className="container">
                 <div className="shopping__row">
-                    <img className="shopping__cards_decor-1" src="../img/decor8.svg" alt="decor"/>
+                    <img className="shopping__cards_decor-1" src="/img/decor8.svg" alt="decor"/>
                     <ul className="shopping__cards">
                     {cartList.map((item, index) => {
                             return (
@@ -193,8 +193,8 @@ function Cart() {
                             </li>
                         </ul>
                         <Link to="/sign"  className="btn btn--payment">Buy</Link>
-                        <img className="shopping__cards_decor-2" src="./img/decor12.svg" alt="decor"/>
-                        <img className="shopping__cards_decor-3" src="./img/decor12.svg" alt="decor"/>
+                        <img className="shopping__cards_decor-2" src="/img/decor12.svg" alt="decor"/>
+                        <img className="shopping__cards_decor-3" src="/img/decor12.svg" alt="decor"/>
                     </div>
                 </div>
             </div>

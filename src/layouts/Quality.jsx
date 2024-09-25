@@ -4,7 +4,7 @@ function Quality() {
         <div className="quality">
             <div className="container">
                 <div className="quality__row">
-                <img className="quality__decor-3" src="./img/decor0.svg" alt="decor"/>
+                <img className="quality__decor-3" src="/img/decor0.svg" alt="decor"/>
                     <div className="quality__col">
                         <h2 className="quality__title">
                             Premium <span>Quality</span><br/>For Your Health

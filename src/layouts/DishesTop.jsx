@@ -49,7 +49,7 @@ function DishesTop() {
                         })}
                     </ul>
                     <div className="dishes__button">
-                        <Link to="/menuAll" className="btn btn--view-all">View All <span> <img src="./img/arrow.png" alt="arrow"/> </span></Link>
+                        <Link to="/menuAll" className="btn btn--view-all">View All <span> <img src="/img/arrow.png" alt="arrow"/> </span></Link>
                     </div>
                 </div>
             </div>
