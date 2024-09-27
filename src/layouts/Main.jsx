@@ -21,7 +21,9 @@ function Main() {
 
     const getData = async () => {
       
-        const dataServer = await fetch('http://localhost:3000/dishes')
+        // const dataServer = await fetch('http://localhost:3000/dishes')
+        const dataServer = await fetch('https://guiltless-cool-grapple.glitch.me/dishes/')
+
         .then(response => response.json());
 
         localStorage.setItem('data', JSON.stringify(dataServer));
