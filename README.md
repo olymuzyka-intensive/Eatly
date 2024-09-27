@@ -8,7 +8,10 @@
 > + React Router
 > + JSON
 
-## DEMO
+## PUBLIC
+  https://eatly-phi.vercel.app/
+  
+### DEMO
 # виджеты избранного, корзины
 ![demo1](https://github.com/olymuzyka-intensive/eatly-react/assets/137098489/4629e22f-3675-48a1-a3de-cfcf8c8d9861)
 # слайдер (смена CSS у активного комментария)
@@ -24,5 +27,3 @@
 # валидация данных
 ![demo7](https://github.com/olymuzyka-intensive/eatly-react/assets/137098489/2ae9356a-2582-4e83-97b1-e26a282ab7ea)
 
-## PUBLIC
-  скоро
