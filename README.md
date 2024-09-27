@@ -9,7 +9,7 @@
 > + JSON
 
 ## PUBLIC
-  https://eatly-phi.vercel.app/
+  [https://eatly-phi.vercel.app/](https://eatly-kappa.vercel.app/)
   
 ### DEMO
 # виджеты избранного, корзины
